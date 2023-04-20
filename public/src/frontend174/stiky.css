@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 64px;
+    background-color: fuchsia;
+}

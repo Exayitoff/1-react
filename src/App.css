@@ -1,0 +1,143 @@
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+.qisqabox-link{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.maktab-rasm img{
+    height: 315px;
+    object-fit: cover;
+}
+.element-dv{
+    padding: 50px 40px 25px 40px;
+}
+.qisqabox-dv{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px #273171;
+}
+.qisqabox-dv i {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 50%;
+    color: #273171;
+    transition: 0.3s;
+}
+.mamuriyat{
+    border: 2px solid #273171;
+    border-radius: 10px;
+}
+.mamuriyat:hover .qisqabox-dv i {
+    background: #273171;
+    color:#f5f5f5;
+}
+/* @media (max-width: 600px) {
+    .mk_rasm{
+        width: 480px;
+    }
+} */
+.qisqa-text h3{
+    font-size: 20px;
+}
+.qisqa-text p{
+    font-size: 15px;
+}
+.tadbir-sarlavha h3{
+    font-size: 36px;
+    font-weight: 100;
+}
+.td-line{
+    width: 45px;
+    height: 3px;
+    background: #273171;
+    margin-left: 50%;
+}
+.borderuchun{
+    border: 2px solid #273171;
+}
+.rasm-sarlav h3{
+    font-size: 24px;
+}
+.rasm-sarlav p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.qisqa-hed{
+    overflow: hidden;
+}
+.qisqa-hed img{
+    object-fit: cover;
+    transition: 0.3s;
+}
+.borderuchun:hover .qisqa-hed img{
+    transform: scale(1.1);
+}
+.toifapng{
+    padding: 10px 0;
+}
+.shadow-uchun{
+    box-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.621);
+}
+.footer-class{
+    box-shadow: 0 -5px 3px rgba(0, 0, 0, 0.308) ;
+}
+.err-page{
+    width: 100%;
+    height: calc(100vh - 70px - 388px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.err-pg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.er-404 h1{
+    font-size: 80px;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+.text_light tr td{
+    color: #f5f5f5 !important;
+}
+.news-list img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px){
+    .d_xs_none{
+        display: none;
+    }
+}
+.maktab-galery div img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+.direktor-galery div{
+    width: 50%;
+    border: 2px solid #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.direktor-galery div img{
+    width: 100%;
+border-radius: 10px;
+    object-fit: cover;
+}
+.mvfq{
+    display: none;
+}
